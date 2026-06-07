@@ -2,7 +2,6 @@
 
 ## Linux mint XFCE configs
 ```bash
-```bash
 #!/usr/bin/env bash
 
 set -e
