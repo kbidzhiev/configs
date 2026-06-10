@@ -1,6 +1,12 @@
 https://wiki.archlinux.org/title/Main_page
 
 
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect "YourWiFiName"
+
 archinstall # dont forget to configure, create a default user
 
 sudo pacman -Syu \ #updates all
