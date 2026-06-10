@@ -1,0 +1,16 @@
+https://wiki.archlinux.org/title/Main_page
+
+
+archinstall # dont forget to configure, create a default user
+
+sudo pacman -Syu \ #updates all
+  vim \
+  git \
+  base-devel # gcc etc, basically all
+
+# xfce, can be installed at the very beginning
+sudo pacman -S xfce4 xfce4-goodies
+
+# KDE plasma, can be installed at the very beginning
+sudo pacman -S plasma kde-applications
+sudo systemctl enable sddm
